@@ -1,0 +1,34 @@
+#about_us{
+    background-color:rgb(130, 51, 195) ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left right";
+}
+#first{
+    background-color: white;
+    padding: 2.2rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 4rem;
+
+    font-size: 1.1rem;
+    word-spacing: .5rem;
+    grid-area: left;
+}
+#first>h1{
+    color: rgb(130, 51, 195);
+    font-size: 2rem;
+}
+#second{
+    width: 100%;
+    right: 5rem;
+    grid-area: right;
+    position: relative;
+    top: 1.5rem;
+
+}
+#about_us>section{
+    align-content: center;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+.contact{
+    background-color: white;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    text-align: center;
+    align-content: center;
+    padding: 2rem;
+    border: solid, rgb(130, 51, 195) ;
+
+}
+#contact{
+    background-color: rgb(130, 51, 195);
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url(camera_shot.webp);
+}
+.contact>h1{
+    color: rgb(130, 51, 195);
+}
+html{
+    background-color: rgb(32, 32, 32);
+}

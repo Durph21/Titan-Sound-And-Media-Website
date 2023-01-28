@@ -1,0 +1,20 @@
+#equipment{
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    color: white;
+    margin:0rem;
+    align-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+ul{
+    list-style-type: none;
+}
+#equipment>p>ul>li{
+    font-size: 1.5rem;
+}
+#equipment>h1{
+    font-size: 3.5rem;
+    letter-spacing: .3rem;
+    text-align: center;
+}

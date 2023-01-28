@@ -1,0 +1,92 @@
+main{
+    grid-area: middle;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 100%;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    grid-template-areas: "top-left top-right"
+                         "middle middle"
+                         "bottom bottom";
+}
+#services{
+    background-color: rgb(32,32,32);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:"top top top"
+                        "left middle right";
+    margin-top: -1.25rem; ;
+    margin-bottom: 0px;
+    padding: bottom 2rem;
+}
+.photo{
+    grid-area: left;
+}
+.video{
+    grid-area: middle;
+}
+.sound{
+    grid-area: right;
+}
+#services>section{
+    border: solid;
+    background-color: white;
+    color: black;
+    padding: .2rem;
+    margin: 1.5rem;
+    text-align: center;
+    letter-spacing: .05rem;
+    word-spacing: .7rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#services p{
+    font-size: 1.5rem;
+    padding: 1.5;
+}
+h1>p{
+    color: rgb(130, 51, 195);
+    font-size: 1.6rem;
+}
+#service_title{
+    color: rgb(130, 51, 195);
+    grid-area: top;
+    text-align:center ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 3.5rem;
+    letter-spacing: .08rem;
+}
+header>h1{
+    color: white;
+    padding: 1rem;
+}
+header{
+    background-color: rgb(32, 32, 32);;
+    margin-bottom: 0rem;
+    grid-area: top-left;
+    text-align: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    font-size: .814rem;
+    margin-top: 0rem;
+    position: relative;
+}
+nav{
+    color: rgb(169, 73, 169);
+    background-color: rgb(32, 32, 32);
+    padding: 2rem;
+    grid-area: top-right;
+    text-align: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-size: 1.8rem;
+    word-spacing: 3rem;
+    position: relative
+}

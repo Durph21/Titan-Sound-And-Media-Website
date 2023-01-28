@@ -1,0 +1,57 @@
+html{
+    background-color: rgb(32, 32, 32);
+}
+main{
+    grid-area: middle;
+}
+div{
+    background-color: black;
+}
+img{
+    width: 100%;
+}
+header>h1{
+    color: white;
+    padding: 1rem;
+}
+header{
+    background-color: rgb(32, 32, 32);;
+    margin-bottom: 0rem;
+    grid-area: top-left;
+    text-align: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    font-size: .814rem;
+    margin-top: 0rem;
+    position: relative;
+}
+nav{
+    color: rgb(175, 57, 175);
+    background-color: rgb(32, 32, 32);
+    padding: 1.2rem;
+    grid-area: top-right;
+    text-align: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-size: 1.2rem;
+    word-spacing: .8rem;
+    position: relative
+}
+@media screen and (min-width: 844px){
+    nav{
+        color: rgb(175, 57, 175);
+        background-color: rgb(32, 32, 32);
+        padding: 2rem;
+        grid-area: top-right;
+        text-align: center;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        font-size: 1.8rem;
+        word-spacing: 3rem;
+        position: relative
+    }
+}
